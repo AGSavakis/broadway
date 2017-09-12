@@ -6,54 +6,71 @@ body {
   color: black;
 }
 
-.menu, .dropout, .copyright {
-  background-image: url("../resources/the-flatiron-building.png");
+h2 {
+  font-size: 32px;
 }
 
-.primary {
+h3 {
+  font-size: 23px;
+}
+
+p {
+  font-size: 14px;
+}
+
+li {
+  line-height: 32px;
+  list-style: none;
+  padding: 0;
+}
+
+.banner, .dropout{
+  background-image: url("../resources/the-flatiron-building.png");
+  color: white;
+}
+
+.title {
   font-size: 70px;
   font-weight: bold;
-  color: white;
 }
 
-.secondary {
-  font-size: 42px;
-  font-weight: 300;
-  color: white;
-}
+
 
 a:link {
     color: white;
     background-color: transparent;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a:visited {
     color: white;
     background-color: transparent;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a:hover {
     color: white;
     background-color: transparent;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 a:active {
     color: white;
     background-color: transparent;
     text-decoration: underline;
-    font-size: 16px;
+    font-size: 18px;
   }
 
-.horizontalmenu {
-  display: inline;
+.inline {
+  display: block;
 }
 
 .copyright {
   text-align: left;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
 }
