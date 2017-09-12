@@ -34,8 +34,6 @@ li {
   font-weight: bold;
 }
 
-
-
 a:link {
     color: white;
     background-color: transparent;
@@ -70,7 +68,6 @@ a:active {
 
 .copyright {
   text-align: left;
-  font-size: 11px;
   color: white;
   background-color: dimgray;
 }
